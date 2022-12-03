@@ -6,3 +6,11 @@
 .card_News:hover .card-body{
     background-color: aliceblue;
 }
+.sliderHome{
+    height: 600px;
+}
+@media screen and (max-width:500px) {
+    .sliderHome{
+        height: 500px;
+    }
+}
