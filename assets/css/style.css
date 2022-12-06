@@ -1,3 +1,4 @@
+/* -========================= page home ========================= */
 .embla__container .overlay{
     background-color: #0000006e;
     width: 100%;
@@ -9,6 +10,28 @@
 .sliderHome{
     height: 600px;
 }
+/* =========================================================================== */
+/* ======================== page roles cover =============================== */
+.covers{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    transition: all 1ms ease-in;
+}
+.covers p{
+    color: black;
+    font-size: 18px;
+}
+.covers:hover{
+    transition: all 1ms ease-in-out;
+    background-color: #3f3250;
+    border-radius: 50%;
+}
+.covers:hover p{
+    color: white;
+}
+
+/* ============================================================================ */
 @media screen and (max-width:500px) {
     .sliderHome{
         height: 500px;
